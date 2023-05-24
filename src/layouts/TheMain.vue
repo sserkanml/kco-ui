@@ -1,7 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SendButton from '../components/main/SendButton.vue';
+import CardList from '../components/main/CardList.vue';
+import send from '../assets/svg/send.svg?raw';
+import AnswerInput from '../components/main/AnswerInput.vue';
+</script>
 
 <template>
   <main
     class="flex h-full w-full grow flex-col items-center justify-center gap-6 rounded-lg bg-white shadow-md"
-  ></main>
+  >
+    <CardList />
+    <form action="" class="flex w-full gap-8 px-6 sm:w-full sm:px-6 md:w-3/5 md:px-0">
+      <AnswerInput></AnswerInput>
+      <SendButton :child="send"></SendButton>
+    </form>
+  </main>
 </template>
