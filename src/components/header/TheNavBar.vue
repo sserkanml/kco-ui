@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import NavListCircleIconContainer from './NavListCircleIconContainer.vue';
-import Setting from '../../assets/svg/setting.svg?raw';
+import { onMounted } from 'vue';
+import { initModals } from 'flowbite';
+import SettingModal from './SettingModal.vue';
+
 </script>
 
 <template>
   <nav class="flex gap-10">
-    <NavListCircleIconContainer :icon="Setting"> </NavListCircleIconContainer>
+    <SettingModal />
   </nav>
 </template>

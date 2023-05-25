@@ -5,7 +5,7 @@ import TheMain from './layouts/TheMain.vue';
 
 <template>
   <div
-    class="container flex min-h-screen w-screen max-w-full flex-col gap-5 bg-background-color p-16"
+    class="container flex min-h-screen w-screen max-w-full flex-col gap-5 bg-background-color p-4 dark:bg-gray-900 sm:p-16"
   >
     <TheHeader></TheHeader>
     <TheMain></TheMain>

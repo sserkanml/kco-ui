@@ -3,8 +3,8 @@ import TheNavBar from '../components/header/TheNavBar.vue';
 </script>
 
 <template>
-  <header class="flex justify-between items-center">
-    <p class="text-2xl font-bold text-pink-600 md:text-3xl">Kelime Çevirme Oyunu</p>
+  <header class="flex items-center justify-between">
+    <p class="sm:2xl text-xl font-bold text-pink-600 md:text-3xl">Kelime Çeviri Oyunu</p>
     <TheNavBar></TheNavBar>
   </header>
 </template>
